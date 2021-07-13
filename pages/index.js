@@ -34,7 +34,7 @@ export async function getStaticProps() {
     props: {
       products: data.products,
     },
-    revalidate: 60,
+    revalidate: 60, //determines the required time in seconds to allow requesting data again
   };
 }
 
